@@ -1,4 +1,4 @@
-package com.example.batikan.ui.theme
+package com.example.batikan.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -18,9 +18,9 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = Primary600,
+    secondary = Secondary600,
+    background = White
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
