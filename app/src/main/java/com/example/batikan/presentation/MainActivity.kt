@@ -1,4 +1,4 @@
-package com.example.batikan
+package com.example.batikan.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -38,7 +38,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-@Preview(showBackground = true)
+@Preview(
+    showBackground = true,
+    showSystemUi = true,
+    )
 @Composable
 fun GreetingPreview() {
     BatikanTheme {
